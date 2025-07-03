@@ -25,14 +25,14 @@
 
     NODE_ENV=development`
 # To run backend locally
-    `cd backend
-     npm install
-     npm run dev `
+    cd backend
+    npm install
+    npm run dev 
 #
 # To run frontend locally
-    `cd frontend
-     npm install
-     npm run dev`
+    cd frontend
+    npm install
+    npm run dev
 #
 #
 #
