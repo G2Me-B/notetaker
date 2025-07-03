@@ -13,14 +13,26 @@
 # A Fullstack app build with MERN stack (Mongo, Express, React and Node)
  * Create , Update and Delete Note (With Title and Description) 
  * Built and Tested a fully functional REST API for CRUD operations
- * Implemented Rate Limiting using Upstash Redis
+ * Implemented Rate Limiting using # Upstash Redis #
  * Responsive UI
 
 
-# 
+# Environment variablle setup
+    `MONGO_URI=<your_mongo_uri>
+
+    UPSTASH_REDIS_REST_URL=<your_redis_rest_url>
+    UPSTASH_REDIS_REST_TOKEN=<your_redis_rest_token>
+
+    NODE_ENV=development`
+# To run backend locally
+    `cd backend
+     npm install
+     npm run dev `
 #
-#
-#
+# To run frontend locally
+    `cd frontend
+     npm install
+     npm run dev`
 #
 #
 #
