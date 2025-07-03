@@ -36,6 +36,7 @@ app.use(rateLimiter)
 // Instantiate the routes
 app.use("/api/notes", routes)
 
+// configuration in production mode 
 if (process.env.NODE_ENV === "production") {
     app.use(express.static(path.join(__dirname, "../frontend/dist")))
 
